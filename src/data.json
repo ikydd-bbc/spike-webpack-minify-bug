@@ -1,0 +1,53 @@
+{
+  "tournaments": [
+    {
+      "urn": "urn:bbc:sportsdata:cricket:tournament:uaw4guaw48f",
+      "id": "uaw4guaw48f",
+      "name": "LV= Insurance County Championship",
+      "rankType": "total",
+      "lastUpdated": "2023-05-09T14:03:25Z",
+      "stages": [
+        {
+          "name": "Regular Season",
+          "accessibleName": "LV= Insurance County Championship, Regular Season Table",
+          "rounds": [
+            {
+              "participants": [
+                {
+                  "rank": 1,
+                  "name": "Yorkshire",
+                  "shortName": "Yorks",
+                  "played": 7,
+                  "won": 5,
+                  "drawn": 1,
+                  "tied": 0,
+                  "lost": 2,
+                  "points": "275",
+                  "battingBonus": "48",
+                  "bowlingBonus": "34",
+                  "teamId": 2788,
+                  "teamUrn": "urn:bbc:sportsdata:cricket:team:yorkshire"
+                },
+                {
+                  "rank": 2,
+                  "name": "Surrey",
+                  "shortName": "Surrey",
+                  "played": 7,
+                  "won": 4,
+                  "drawn": 2,
+                  "tied": 0,
+                  "lost": 2,
+                  "points": "250",
+                  "battingBonus": "32",
+                  "bowlingBonus": "46",
+                  "teamId": 1707,
+                  "teamUrn": "urn:bbc:sportsdata:cricket:team:surrey"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

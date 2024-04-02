@@ -1,0 +1,17 @@
+{
+  "name": "terser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pack": "webpack",
+    "start": "node dist/main.js"
+  },
+  "author": "",
+  "private": true,
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
