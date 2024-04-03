@@ -8,4 +8,7 @@ npm test // works fine
 
 npm i webpack@5.90.2
 npm test // error
+
+npm i webpack@5.91.0
+npm test // error
 ```
