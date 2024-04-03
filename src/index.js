@@ -1,6 +1,9 @@
 // this needs to be an import (require seems to work fine)
 import data from './data.json';
 
+// this works
+console.log(data.foo.bar)
+
 // bar does not destructure correctly ... 
 const { bar } = data.foo;
 
@@ -8,5 +11,7 @@ const { bar } = data.foo;
 if (typeof bar === 'undefined') {
   throw Error('bar was undefined');
 }
+
+// if we add this though then it works properly:
 
 console.log(bar);
