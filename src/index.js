@@ -1,10 +1,10 @@
 // this needs to be an import (require seems to work fine)
 import data from './data.json';
 
-// this works
+// this works ...
 console.log(data.foo.bar)
 
-// bar does not destructure correctly ... 
+// ...but bar does not destructure correctly ... 
 const { bar } = data.foo;
 
 // ... so the const is undefined
