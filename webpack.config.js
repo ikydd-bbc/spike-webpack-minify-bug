@@ -2,6 +2,6 @@
 module.exports = {
   mode: 'production',
   optimization: {
-    minimize: true
+    minimize: false
   }
 };
