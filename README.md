@@ -1,4 +1,4 @@
-# Webpack 5.90.2 Bug
+# Webpack 5.90.2+ Bug
 
 Steps to recreate:
 
