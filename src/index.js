@@ -2,9 +2,11 @@
 import data from './data.json';
 
 // bar does not destructure correctly ... 
-const { bar } = data.foo[0];
+const { bar } = data.foo;
 
-// ... so the map errors
-const out = bar.map(item => item);
+// ... so the const is undefined
+if (typeof bar === 'undefined') {
+  throw Error('bar was undefined');
+}
 
-console.log(out);
+console.log(bar);
