@@ -5,7 +5,7 @@
 Steps to recreate:
 
 ```
-npm checkout main
+npm checkout new-webpack
 npm ci
 npm run pack // webpack@5.91.0
 npm start // error
