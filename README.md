@@ -3,6 +3,8 @@
 Steps to recreate:
 
 ```
+npm i
+
 npm i webpack@5.90.1
 npm test // works fine
 
