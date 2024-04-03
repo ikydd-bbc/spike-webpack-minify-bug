@@ -1,11 +1,7 @@
-import transformedFirstClassTournamentData from './data.json';
+import data from './data.json';
 
-const { participants: firstClassParticipants } = transformedFirstClassTournamentData.tournaments[0].stages[0].rounds[0];
+const { bar } = data.foo[0];
 
-const firstClassParticipantsWithoutBatting = firstClassParticipants.map(participant => ({
-  ...participant,
-  battingBonus: undefined
-}));
+const out = bar.map(item => item);
 
-
-console.log(firstClassParticipantsWithoutBatting);
+console.log(out);

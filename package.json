@@ -1,17 +1,18 @@
 {
-  "name": "terser",
+  "name": "webpack-bug",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "pack": "webpack",
-    "start": "node dist/main.js"
+    "start": "node dist/main.js",
+    "test": "npm run pack && npm start"
   },
   "author": "",
   "private": true,
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^5.91.0",
+    "webpack": "5.90.2",
     "webpack-cli": "^5.1.4"
   }
 }
